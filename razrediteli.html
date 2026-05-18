@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Разредители и допълнителни материали — Химколор</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=22">
+    <style>
+        .product-detail-section { background: var(--white); padding: 80px 0 100px; }
+        .product-detail-inner { max-width: var(--max); margin: 0 auto; padding: 0 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+        .product-detail-img-wrap { background: var(--dark-3); border-radius: 20px; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center; overflow: hidden; position: sticky; top: 100px; }
+        .product-detail-img-wrap img { width: 80%; height: 80%; object-fit: contain; }
+        .product-detail-body { padding-top: 8px; }
+        .product-detail-body .section-tag { color: var(--blue); display: block; margin-bottom: 16px; }
+        .product-detail-body h2 { font-family: var(--font); font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; letter-spacing: -0.025em; line-height: 1.1; color: var(--dark); margin-bottom: 28px; }
+        .product-detail-body .product-desc { font-size: 1.05rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 40px; }
+        .specs-table { width: 100%; border-collapse: collapse; margin-bottom: 40px; }
+        .specs-table tr { border-bottom: 1px solid var(--border-dark); }
+        .specs-table tr:first-child { border-top: 1px solid var(--border-dark); }
+        .specs-table td { padding: 14px 0; font-size: 0.92rem; vertical-align: top; }
+        .specs-table td:first-child { font-weight: 700; color: var(--dark); width: 42%; padding-right: 16px; }
+        .specs-table td:last-child { color: var(--text-muted); }
+        .specs-table tr:nth-child(even) td { background: rgba(0,0,0,0.035); }
+
+        .product-detail-cta { display: flex; gap: 16px; flex-wrap: wrap; }
+        .related-section { background: var(--dark); padding: 80px 0; }
+        .related-section .section-header { margin-bottom: 48px; }
+        .related-section .section-header h2 { color: var(--white); }
+        .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: var(--max); margin: 0 auto; padding: 0 40px; }
+        @media (max-width: 900px) { .product-detail-inner { grid-template-columns: 1fr; gap: 40px; } .product-detail-img-wrap { position: static; aspect-ratio: 4/3; } .related-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 640px) { .product-detail-inner { padding: 0 24px; } .related-grid { padding: 0 24px; } }
+    </style>
+</head>
+<body data-lang="bg" data-title-bg="Разредители и допълнителни материали — Химколор" data-title-en="Thinners and Additional Materials — Himcolor">
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo"><img src="assets/logo.png?v=5" alt="Химколор"></a>
+        <ul class="nav-links" id="navLinks">
+            <li class="nav-item"><a href="index.html" data-bg="Начало" data-en="Home">Начало</a></li>
+            <li class="nav-item has-dropdown">
+                <a href="prodykti.html" data-bg="Продукти" data-en="Products">Продукти</a>
+                <div class="nav-dropdown">
+                    <div class="nav-dropdown-inner">
+                        <a href="acrylna-boya.html" class="dropdown-item"><span data-bg="Акрилатна боя Сити/Сити+" data-en="Acrylic Paint City/City+">Акрилатна боя Сити/Сити+</span><span class="dd-arrow">→</span></a>
+                        <a href="studen-plastik.html" class="dropdown-item"><span data-bg="Студен пластик 99:1" data-en="Cold Plastic 99:1">Студен пластик 99:1</span><span class="dd-arrow">→</span></a>
+                        <a href="shpric-plastik.html" class="dropdown-item"><span data-bg="Студен шприц пластик 98:2" data-en="Cold Spray Plastic 98:2">Студен шприц пластик 98:2</span><span class="dd-arrow">→</span></a>
+                        <div class="nav-dropdown-divider"></div>
+                        <a href="prodykti.html" class="dropdown-explore"><span data-bg="Всички продукти" data-en="All Products">Всички продукти</span><span class="dd-arrow">→</span></a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item"><a href="doverie.html" data-bg="Доверие" data-en="Trust">Доверие</a></li>
+            <li class="nav-item"><a href="ekspertiza.html" data-bg="Експертиза" data-en="Expertise">Експертиза</a></li>
+            <li class="nav-item"><a href="sertifikati.html" data-bg="Сертификати" data-en="Certificates">Сертификати</a></li>
+            <li class="nav-item"><a href="galeria.html" data-bg="Галерия" data-en="Gallery">Галерия</a></li>
+            <li class="nav-item"><a href="kontakti.html" data-bg="Контакти" data-en="Contact">Контакти</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="lang-toggle" id="langToggle" aria-label="Смяна на езика">
+                <span class="lang-opt lang-bg active">BG</span><span class="lang-sep">/</span><span class="lang-opt lang-en">EN</span>
+            </button>
+            <a href="kontakti.html" class="btn-nav-cta" data-bg="Запитване" data-en="Get Quote">Запитване</a>
+            <button class="hamburger" id="hamburger" aria-label="Меню"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</nav>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+    <div class="container">
+        <span class="page-hero-tag" data-bg="Продукт 04" data-en="Product 04">Продукт 04</span>
+        <h1 data-bg="Разредители и допълнителни материали" data-en="Thinners and Additional Materials">Разредители и допълнителни материали</h1>
+        <p data-bg="Специализирани разредители и допълнителни материали, съвместими с цялата продуктова гама на Химколор." data-en="Specialised thinners and additional materials compatible with the full Himcolor product range.">
+            Специализирани разредители и допълнителни материали, съвместими с цялата продуктова гама на Химколор.
+        </p>
+    </div>
+</section>
+
+<!-- ===== PRODUCT DETAIL ===== -->
+<section class="product-detail-section">
+    <div class="product-detail-inner">
+        <div class="product-detail-img-wrap reveal" style="background: var(--dark-3);">
+            <!-- Снимка предстои -->
+        </div>
+        <div class="product-detail-body reveal" data-delay="100">
+            <span class="section-tag" data-bg="Описание на продукта" data-en="Product Description">Описание на продукта</span>
+            <h2 data-bg="Разредители и допълнителни материали" data-en="Thinners and Additional Materials">Разредители и допълнителни материали</h2>
+            <p class="product-desc" data-bg="Описанието на продукта ще бъде добавено скоро. Свържете се с нас за технически лист и пълна спецификация." data-en="Product description coming soon. Contact us for the technical data sheet and full specification.">
+                Описанието на продукта ще бъде добавено скоро. Свържете се с нас за технически лист и пълна спецификация.
+            </p>
+            <table class="specs-table">
+                <tr>
+                    <td data-bg="Съвместимост" data-en="Compatibility">Съвместимост</td>
+                    <td data-bg="Акрилатни и MMA системи" data-en="Acrylic and MMA systems">Акрилатни и MMA системи</td>
+                </tr>
+                <tr>
+                    <td data-bg="Приложение" data-en="Application">Приложение</td>
+                    <td data-bg="Разреждане на бои и почистване на оборудване" data-en="Thinning paints and cleaning equipment">Разреждане на бои и почистване на оборудване</td>
+                </tr>
+                <tr>
+                    <td data-bg="Опаковка" data-en="Packaging">Опаковка</td>
+                    <td data-bg="1 л / 5 л / 20 л кофа" data-en="1 L / 5 L / 20 L bucket">1 л / 5 л / 20 л кофа</td>
+                </tr>
+                <tr>
+                    <td data-bg="Характеристики" data-en="Properties">Характеристики</td>
+                    <td data-bg="Специализирани за пътни маркировъчни системи" data-en="Specialised for road marking systems">Специализирани за пътни маркировъчни системи</td>
+                </tr>
+            </table>
+            <div class="product-detail-cta">
+                <a href="kontakti.html" class="btn-primary" style="background:var(--blue);border-color:var(--blue);color:var(--white);" data-bg="Запитай за оферта →" data-en="Request a Quote →">Запитай за оферта →</a>
+                <a href="prodykti.html" class="btn-outline" style="border-color:rgba(0,0,0,0.2);color:var(--dark);" data-bg="Всички продукти" data-en="All Products">Всички продукти</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== RELATED PRODUCTS ===== -->
+<section class="related-section">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-tag" data-bg="Виж също" data-en="See Also">Виж също</span>
+            <h2 data-bg="Други продукти" data-en="Other Products">Други продукти</h2>
+        </div>
+    </div>
+    <div class="related-grid">
+        <div class="product-card reveal" data-delay="0">
+            <div class="product-img-wrap"><img src="Бои/Cherveno.png" alt="Акрилатна боя"><div class="product-img-overlay"><a href="kontakti.html" class="btn-product-cta" data-bg="Запитай →" data-en="Enquire →">Запитай →</a></div></div>
+            <div class="product-body">
+                <span class="product-num">01</span>
+                <h3 data-bg="Акрилатна боя Сити/Сити+" data-en="Acrylic Paint City/City+">Акрилатна боя Сити/Сити+</h3>
+                <p data-bg="Водоразредима, бързосъхнеща система за хоризонтална маркировка." data-en="Water-based, fast-drying system for horizontal markings.">Водоразредима, бързосъхнеща система за хоризонтална маркировка.</p>
+                <a href="acrylna-boya.html" class="product-link" data-bg="Научи повече →" data-en="Learn more →">Научи повече →</a>
+            </div>
+        </div>
+        <div class="product-card reveal" data-delay="100">
+            <div class="product-img-wrap"><img src="Бои/Sivo.png" alt="Студен пластик"><div class="product-img-overlay"><a href="kontakti.html" class="btn-product-cta" data-bg="Запитай →" data-en="Enquire →">Запитай →</a></div></div>
+            <div class="product-body">
+                <span class="product-num">02</span>
+                <h3 data-bg="Двукомпонентен студен пластик 99:1" data-en="Two-Component Cold Plastic 99:1">Двукомпонентен студен пластик 99:1</h3>
+                <p data-bg="Двукомпонентна MMA система за трайна маркировка с живот 5–7 години." data-en="Two-component MMA system for durable markings with 5–7 year lifespan.">Двукомпонентна MMA система за трайна маркировка с живот 5–7 години.</p>
+                <a href="studen-plastik.html" class="product-link" data-bg="Научи повече →" data-en="Learn more →">Научи повече →</a>
+            </div>
+        </div>
+        <div class="product-card reveal" data-delay="200">
+            <div class="product-img-wrap"><img src="Бои/Cherno.png" alt="Студен шприц пластик"><div class="product-img-overlay"><a href="kontakti.html" class="btn-product-cta" data-bg="Запитай →" data-en="Enquire →">Запитай →</a></div></div>
+            <div class="product-body">
+                <span class="product-num">03</span>
+                <h3 data-bg="Двукомпонентен студен шприц пластик 98:2" data-en="Two-Component Cold Spray Plastic 98:2">Двукомпонентен студен шприц пластик 98:2</h3>
+                <p data-bg="Специализирана двукомпонентна система за шприц нанасяне на трайна пътна маркировка." data-en="Specialised two-component system for spray application of durable road markings.">Специализирана двукомпонентна система за шприц нанасяне на трайна пътна маркировка.</p>
+                <a href="shpric-plastik.html" class="product-link" data-bg="Научи повече →" data-en="Learn more →">Научи повече →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+    <div class="container">
+        <h2 data-bg="Готови да поръчате?" data-en="Ready to Order?">Готови да поръчате?</h2>
+        <p data-bg="Свържете се с нас за оферта и технически консултации." data-en="Contact us for a quote and technical consultation.">Свържете се с нас за оферта и технически консултации.</p>
+        <div class="cta-btns"><a href="kontakti.html" class="btn-primary" data-bg="Запитай за оферта →" data-en="Request a Quote →">Запитай за оферта →</a></div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="assets/logo.png?v=5" alt="Химколор" class="footer-logo">
+            <p class="footer-slogan" data-bg="Инвестиция в сигурност." data-en="Investment in Safety.">Инвестиция в сигурност.</p>
+            <p class="footer-tagline" data-bg="Химия на доверието във всеки слой." data-en="Chemistry of trust in every layer.">Химия на доверието във всеки слой.</p>
+        </div>
+        <div class="footer-nav">
+            <h5 data-bg="Навигация" data-en="Navigation">Навигация</h5>
+            <ul>
+                <li><a href="index.html" data-bg="Начало" data-en="Home">Начало</a></li>
+                <li><a href="doverie.html" data-bg="Доверие" data-en="Trust">Доверие</a></li>
+                <li><a href="ekspertiza.html" data-bg="Експертиза" data-en="Expertise">Експертиза</a></li>
+                <li><a href="sertifikati.html" data-bg="Сертификати" data-en="Certificates">Сертификати</a></li>
+                <li><a href="galeria.html" data-bg="Галерия" data-en="Gallery">Галерия</a></li>
+                <li><a href="kontakti.html" data-bg="Контакти" data-en="Contact">Контакти</a></li>
+            </ul>
+        </div>
+        <div class="footer-nav">
+            <h5 data-bg="Продукти" data-en="Products">Продукти</h5>
+            <ul>
+                <li><a href="prodykti.html" data-bg="Всички продукти" data-en="All Products">Всички продукти</a></li>
+                <li><a href="acrylna-boya.html" data-bg="Акрилатна боя" data-en="Acrylic Paint">Акрилатна боя</a></li>
+                <li><a href="studen-plastik.html" data-bg="Студен пластик 99:1" data-en="Cold Plastic 99:1">Студен пластик 99:1</a></li>
+                <li><a href="shpric-plastik.html" data-bg="Шприц пластик 98:2" data-en="Spray Plastic 98:2">Шприц пластик 98:2</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact-info">
+            <h5 data-bg="Контакти" data-en="Contact">Контакти</h5>
+            <p><span class="footer-contact-label" data-bg="Търговски отдел" data-en="Sales">Търговски отдел</span><a href="tel:+359892337322">+359 892 337 322</a></p>
+            <p><span class="footer-contact-label" data-bg="Технически отдел" data-en="Technical">Технически отдел</span><a href="tel:+359888806928">+359 888 806 928</a></p>
+            <p><a href="mailto:office@himcolor.bg">office@himcolor.bg</a></p>
+            <p data-bg="гр. Първомай, ул. Бузлуджа 3" data-en="Parvomay, 3 Buzludzha St.">гр. Първомай, ул. Бузлуджа 3</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 Химколор. <span data-bg="Всички права запазени." data-en="All rights reserved.">Всички права запазени.</span></p>
+        <button class="lang-toggle-footer" id="langToggleFooter">BG / EN</button>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

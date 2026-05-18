@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Химколор — Инвестиция в сигурност</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=22">
+</head>
+<body data-lang="bg" data-title-bg="Химколор — Инвестиция в сигурност" data-title-en="Himcolor — Investment in Safety">
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo">
+            <img src="assets/logo.png?v=5" alt="Химколор">
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li class="nav-item"><a href="index.html" data-bg="Начало" data-en="Home">Начало</a></li>
+            <li class="nav-item has-dropdown">
+                <a href="prodykti.html" data-bg="Продукти" data-en="Products">Продукти</a>
+                <div class="nav-dropdown">
+                    <div class="nav-dropdown-inner">
+                        <a href="acrylna-boya.html" class="dropdown-item"><span data-bg="Акрилатна боя Сити/Сити+" data-en="Acrylic Paint City/City+">Акрилатна боя Сити/Сити+</span><span class="dd-arrow">→</span></a>
+                        <a href="studen-plastik.html" class="dropdown-item"><span data-bg="Студен пластик 99:1" data-en="Cold Plastic 99:1">Студен пластик 99:1</span><span class="dd-arrow">→</span></a>
+                        <a href="shpric-plastik.html" class="dropdown-item"><span data-bg="Студен шприц пластик 98:2" data-en="Cold Spray Plastic 98:2">Студен шприц пластик 98:2</span><span class="dd-arrow">→</span></a>
+                        <div class="nav-dropdown-divider"></div>
+                        <a href="prodykti.html" class="dropdown-explore"><span data-bg="Всички продукти" data-en="All Products">Всички продукти</span><span class="dd-arrow">→</span></a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item"><a href="doverie.html" data-bg="Доверие" data-en="Trust">Доверие</a></li>
+            <li class="nav-item"><a href="ekspertiza.html" data-bg="Експертиза" data-en="Expertise">Експертиза</a></li>
+            <li class="nav-item"><a href="sertifikati.html" data-bg="Сертификати" data-en="Certificates">Сертификати</a></li>
+            <li class="nav-item"><a href="galeria.html" data-bg="Галерия" data-en="Gallery">Галерия</a></li>
+            <li class="nav-item"><a href="kontakti.html" data-bg="Контакти" data-en="Contact">Контакти</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="lang-toggle" id="langToggle" aria-label="Смяна на езика">
+                <span class="lang-opt lang-bg active">BG</span>
+                <span class="lang-sep">/</span>
+                <span class="lang-opt lang-en">EN</span>
+            </button>
+            <a href="kontakti.html" class="btn-nav-cta" data-bg="Запитване" data-en="Get Quote">Запитване</a>
+            <button class="hamburger" id="hamburger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+    <div class="hero-media">
+        <video autoplay muted loop playsinline class="hero-video" id="heroVideo">
+            <source src="assets/hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+        <p class="hero-eyebrow" data-bg="Инвестиция в сигурност" data-en="Investment in Safety">Инвестиция в сигурност</p>
+        <h1 class="hero-title" data-bg="Химия на доверието. Във всеки слой." data-en="Chemistry of Trust. In Every Layer.">Химия на доверието. Във всеки слой.</h1>
+        <p class="hero-sub" data-bg="Химколор е специализиран производител на бои и системи за хоризонтална пътна маркировка. Разработени за дълготрайна видимост, устойчивост и надеждно поведение при реална пътна натовареност." data-en="Himcolor is a specialised manufacturer of paints and systems for horizontal road marking. Developed for long-lasting visibility, durability, and reliable performance under real road load.">
+            Химколор е специализиран производител на бои и системи за хоризонтална пътна маркировка. Разработени за дълготрайна видимост, устойчивост и надеждно поведение при реална пътна натовареност.
+        </p>
+        <div class="hero-btns">
+            <a href="prodykti.html" class="btn-primary" data-bg="Разгледай системите" data-en="Explore Systems">Разгледай системите</a>
+            <a href="kontakti.html" class="btn-outline" data-bg="Запитване за проект" data-en="Project Enquiry">Запитване за проект</a>
+        </div>
+    </div>
+    <div class="hero-scroll">
+        <span class="scroll-label">Scroll</span>
+        <span class="scroll-line"></span>
+    </div>
+</section>
+
+<!-- ===== PARTNERS STRIP ===== -->
+<section class="trust-strip">
+    <div class="container">
+        <p class="trust-strip-label" data-bg="Доверен партньор на водещи организации в България" data-en="Trusted partner of leading organisations in Bulgaria">Доверен партньор на водещи организации в България</p>
+        <div class="partners-grid reveal">
+            <div class="partner-item"><div class="partner-placeholder" data-bg="АПИ" data-en="Road Infrastructure<br>Agency">АПИ</div></div>
+            <div class="partner-item"><div class="partner-placeholder" data-bg="Община<br>София" data-en="Sofia<br>Municipality">Община<br>София</div></div>
+            <div class="partner-item"><div class="partner-placeholder" data-bg="Община<br>Пловдив" data-en="Plovdiv<br>Municipality">Община<br>Пловдив</div></div>
+            <div class="partner-item"><div class="partner-placeholder" data-bg="Автомагистрали<br>ЕАД" data-en="Avtomagistrali<br>EAD">Автомагистрали<br>ЕАД</div></div>
+            <div class="partner-item"><div class="partner-placeholder" data-bg="Пътинженеринг" data-en="Road Engineering">Пътинженеринг</div></div>
+            <div class="partner-item"><div class="partner-placeholder" data-bg="Трафик<br>Инженеринг" data-en="Traffic<br>Engineering">Трафик<br>Инженеринг</div></div>
+            <div class="partner-item"><div class="partner-placeholder" data-bg="TRACE" data-en="TRACE">TRACE</div></div>
+            <div class="partner-item"><div class="partner-placeholder" data-bg="Елит пътна<br>сигнализация" data-en="Elite Road<br>Signalling">Елит пътна<br>сигнализация</div></div>
+            <div class="partner-item"><div class="partner-placeholder" data-bg="Лукойл" data-en="Lukoil">Лукойл</div></div>
+            <div class="partner-item"><div class="partner-placeholder" data-bg="Община<br>Враца" data-en="Vratsa<br>Municipality">Община<br>Враца</div></div>
+            <div class="partner-item" aria-hidden="true"><div class="partner-placeholder" data-bg="АПИ" data-en="Road Infrastructure<br>Agency">АПИ</div></div>
+            <div class="partner-item" aria-hidden="true"><div class="partner-placeholder" data-bg="Община<br>София" data-en="Sofia<br>Municipality">Община<br>София</div></div>
+            <div class="partner-item" aria-hidden="true"><div class="partner-placeholder" data-bg="Община<br>Пловдив" data-en="Plovdiv<br>Municipality">Община<br>Пловдив</div></div>
+            <div class="partner-item" aria-hidden="true"><div class="partner-placeholder" data-bg="Автомагистрали<br>ЕАД" data-en="Avtomagistrali<br>EAD">Автомагистрали<br>ЕАД</div></div>
+            <div class="partner-item" aria-hidden="true"><div class="partner-placeholder" data-bg="Пътинженеринг" data-en="Road Engineering">Пътинженеринг</div></div>
+            <div class="partner-item" aria-hidden="true"><div class="partner-placeholder" data-bg="Трафик<br>Инженеринг" data-en="Traffic<br>Engineering">Трафик<br>Инженеринг</div></div>
+            <div class="partner-item" aria-hidden="true"><div class="partner-placeholder" data-bg="TRACE" data-en="TRACE">TRACE</div></div>
+            <div class="partner-item" aria-hidden="true"><div class="partner-placeholder" data-bg="Елит пътна<br>сигнализация" data-en="Elite Road<br>Signalling">Елит пътна<br>сигнализация</div></div>
+            <div class="partner-item" aria-hidden="true"><div class="partner-placeholder" data-bg="Лукойл" data-en="Lukoil">Лукойл</div></div>
+            <div class="partner-item" aria-hidden="true"><div class="partner-placeholder" data-bg="Община<br>Враца" data-en="Vratsa<br>Municipality">Община<br>Враца</div></div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PRODUCTS TEASER ===== -->
+<section class="products-section" id="products">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-tag" data-bg="Нашите продукти" data-en="Our Products">Нашите продукти</span>
+            <h2 data-bg="Три линии. Едно качество." data-en="Three Lines. One Quality.">Три линии. Едно качество.</h2>
+            <p data-bg="Акрилатни бои, двукомпонентен студен пластик и високоустойчиви системи за хоризонтална пътна маркировка, разработени за градска и магистрална инфраструктура." data-en="Acrylic paints, two-component cold plastic, and high-durability systems for horizontal road marking, developed for urban and highway infrastructure.">
+                Акрилатни бои, двукомпонентен студен пластик и високоустойчиви системи за хоризонтална пътна маркировка, разработени за градска и магистрална инфраструктура.
+            </p>
+        </div>
+        <div class="products-grid">
+
+            <!-- Product 1 -->
+            <div class="product-card reveal" data-delay="0">
+                <div class="product-img-wrap">
+                    <img src="Бои/акрилатна нова.png" alt="Акрилна боя за маркировка">
+                    <div class="product-img-overlay">
+                        <a href="kontakti.html" class="btn-product-cta" data-bg="Запитай →" data-en="Enquire →">Запитай →</a>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <span class="product-num">01</span>
+                    <h3 data-bg="Акрилатна боя Сити/Сити+" data-en="Acrylic Paint City/City+">Акрилатна боя Сити/Сити+</h3>
+                    <p data-bg="Практично решение за маркиране на градски улици, паркинги и второстепенни пътни участъци с добра видимост и надеждно покритие." data-en="Practical solution for city streets, car parks and secondary road sections with good visibility and reliable coverage.">
+                        Практично решение за маркиране на градски улици, паркинги и второстепенни пътни участъци с добра видимост и надеждно покритие.
+                    </p>
+                    <ul class="product-specs">
+                        <li data-bg="Разход: 700-900 g/m²" data-en="Consumption: 700-900 g/m²">Разход: 700-900 g/m²</li>
+                        <li data-bg="Съхнене: 60-90 min" data-en="Drying time: 60-90 min">Съхнене: 60-90 min</li>
+                        <li data-bg="Слой: 0.3-0.5 mm" data-en="Layer thickness: 0.3-0.5 mm">Слой: 0.3-0.5 mm</li>
+                    </ul>
+                    <a href="acrylna-boya.html" class="product-link" data-bg="Научи повече →" data-en="Learn more →">Научи повече →</a>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card reveal" data-delay="100">
+                <div class="product-img-wrap">
+                    <img src="Бои/студен нова.png" alt="Студен пластик">
+                    <div class="product-img-overlay">
+                        <a href="kontakti.html" class="btn-product-cta" data-bg="Запитай →" data-en="Enquire →">Запитай →</a>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <span class="product-num">02</span>
+                    <h3 data-bg="Двукомпонентен студен пластик 99:1" data-en="Two-Component Cold Plastic 99:1">Двукомпонентен студен пластик 99:1</h3>
+                    <p data-bg="Високоустойчива MMA система за екструдерно полагане при участъци с интензивно натоварване и дебелослойно покритие." data-en="High-resistance MMA system for extruder application on heavily loaded sections with thick-layer coverage.">
+                        Високоустойчива MMA система за екструдерно полагане при участъци с интензивно натоварване и дебелослойно покритие.
+                    </p>
+                    <ul class="product-specs">
+                        <li data-bg="Разход: 3500-4000 g/m²" data-en="Consumption: 3500-4000 g/m²">Разход: 3500-4000 g/m²</li>
+                        <li data-bg="Съхнене: 20-50 min" data-en="Drying time: 20-50 min">Съхнене: 20-50 min</li>
+                        <li data-bg="Слой: 2.0-2.5 mm" data-en="Layer thickness: 2.0-2.5 mm">Слой: 2.0-2.5 mm</li>
+                    </ul>
+                    <a href="studen-plastik.html" class="product-link" data-bg="Научи повече →" data-en="Learn more →">Научи повече →</a>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card reveal" data-delay="200">
+                <div class="product-img-wrap">
+                    <img src="Бои/шриц новаpng.png" alt="Студен шприц пластик 98:2">
+                    <div class="product-img-overlay">
+                        <a href="kontakti.html" class="btn-product-cta" data-bg="Запитай →" data-en="Enquire →">Запитай →</a>
+                    </div>
+                </div>
+                <div class="product-body">
+                    <span class="product-num">03</span>
+                    <h3 data-bg="Двукомпонентен студен шприц пластик 98:2" data-en="Two-Component Cold Spray Plastic 98:2">Двукомпонентен студен шприц пластик 98:2</h3>
+                    <p data-bg="Ефективно решение за бързо машинно полагане на дълги и натоварени участъци с равномерно покритие." data-en="Efficient solution for fast machine application on long and heavily loaded sections with uniform coverage.">
+                        Ефективно решение за бързо машинно полагане на дълги и натоварени участъци с равномерно покритие.
+                    </p>
+                    <ul class="product-specs">
+                        <li data-bg="Разход: 1300-1500 g/m²" data-en="Consumption: 1300-1500 g/m²">Разход: 1300-1500 g/m²</li>
+                        <li data-bg="Съхнене: 20-50 min" data-en="Drying time: 20-50 min">Съхнене: 20-50 min</li>
+                        <li data-bg="Слой: 0.6 mm" data-en="Layer thickness: 0.6 mm">Слой: 0.6 mm</li>
+                    </ul>
+                    <a href="shpric-plastik.html" class="product-link" data-bg="Научи повече →" data-en="Learn more →">Научи повече →</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="products-cta-row reveal">
+            <a href="prodykti.html" class="btn-primary" data-bg="Разгледай всички продукти →" data-en="View All Products →">Разгледай всички продукти →</a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== EXPERTISE STRIP ===== -->
+<section class="home-expertise">
+    <div class="container">
+        <div class="home-expertise-inner">
+            <div class="home-expertise-text reveal">
+                <span class="section-tag" data-bg="За нас" data-en="About Us">За нас</span>
+                <h2 data-bg="Производство, контрол и инженерна експертиза в една система." data-en="Production, control and engineering expertise in one system.">
+                    Производство, контрол и инженерна експертиза в една система.
+                </h2>
+                <p data-bg="Химколор е специализиран завод за бои и системи за хоризонтална пътна маркировка с производствена база в България. Компанията е част от Института по транспортна инфраструктура — структура, в която оперират специализирани лаборатории в София и Плевен, както и проектантската компания ТрансГео." data-en="Himcolor is a specialised plant for paints and horizontal road marking systems with a production base in Bulgaria. The company is part of the Institute of Transport Infrastructure, a structure that includes specialised laboratories in Sofia and Pleven, as well as the design company TransGeo.">
+                    Химколор е специализиран завод за бои и системи за хоризонтална пътна маркировка с производствена база в България. Компанията е част от Института по транспортна инфраструктура — структура, в която оперират специализирани лаборатории в София и Плевен, както и проектантската компания ТрансГео.
+                </p>
+                <p data-bg="Тази интегрирана среда ни позволява да съчетаваме производство, лабораторен контрол и инженерна експертиза при разработването на всяка система за пътна маркировка." data-en="This integrated environment allows us to combine production, laboratory control, and engineering expertise in the development of every road marking system.">
+                    Тази интегрирана среда ни позволява да съчетаваме производство, лабораторен контрол и инженерна експертиза при разработването на всяка система за пътна маркировка.
+                </p>
+                <p data-bg="Работим с внимателно подбрани суровини от висок клас и не правим компромис с устойчивостта, видимостта и дълготрайността на покритията." data-en="We work with carefully selected high-grade raw materials and make no compromise with the durability, visibility, and long service life of the coatings.">
+                    Работим с внимателно подбрани суровини от висок клас и не правим компромис с устойчивостта, видимостта и дълготрайността на покритията.
+                </p>
+                <p data-bg="Системите на Химколор се използват при маркиране на магистрали, летища, градски пътища, индустриални обекти, паркинги и инфраструктурни проекти с високи изисквания към качеството и безопасността." data-en="Himcolor systems are used for marking highways, airports, urban roads, industrial sites, parking areas, and infrastructure projects with high requirements for quality and safety.">
+                    Системите на Химколор се използват при маркиране на магистрали, летища, градски пътища, индустриални обекти, паркинги и инфраструктурни проекти с високи изисквания към качеството и безопасността.
+                </p>
+                <a href="ekspertiza.html" class="btn-primary home-expertise-link" data-bg="Научи повече за нас →" data-en="Learn More About Us →">Научи повече за нас →</a>
+            </div>
+            <div class="stats-grid reveal" data-delay="100">
+                <div class="stat-box">
+                    <span class="stat-num">15+</span>
+                    <span class="stat-lbl" data-bg="Години опит" data-en="Years of experience">Години опит</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-num">5 000+</span>
+                    <span class="stat-lbl" data-bg="km маркировка" data-en="km of markings">km маркировка</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-num">100+</span>
+                    <span class="stat-lbl" data-bg="Реализирани обекта" data-en="Completed projects">Реализирани обекта</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-num">ISO</span>
+                    <span class="stat-lbl" data-bg="9001 Сертифициран" data-en="9001 Certified">9001 Сертифициран</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== WHY HIMCOLOR ===== -->
+<section class="why-himcolor">
+    <div class="container">
+        <div class="why-head reveal">
+            <div>
+                <span class="section-tag" data-bg="Защо Химколор" data-en="Why Himcolor">Защо Химколор</span>
+                <h2 data-bg="Разработени за инфраструктура с високи изисквания." data-en="Developed for infrastructure with high requirements.">Разработени за инфраструктура с високи изисквания.</h2>
+            </div>
+            <p data-bg="Всяка система на Химколор е разработена с фокус върху реална експлоатация, дълготрайност и предвидимо качество при различни условия на натоварване." data-en="Every Himcolor system is developed with a focus on real operation, durability, and predictable quality under different load conditions.">
+                Всяка система на Химколор е разработена с фокус върху реална експлоатация, дълготрайност и предвидимо качество при различни условия на натоварване.
+            </p>
+        </div>
+        <div class="why-grid">
+            <article class="why-card reveal" data-delay="0">
+                <span class="why-num">01</span>
+                <div class="why-line"></div>
+                <h3 data-bg="Подбрани суровини" data-en="Selected raw materials">Подбрани суровини</h3>
+                <p data-bg="Работим само с висок клас компоненти и материали, подбрани за устойчивост и надеждно поведение при експлоатация." data-en="We work only with high-grade components and materials selected for durability and reliable performance in operation.">Работим само с висок клас компоненти и материали, подбрани за устойчивост и надеждно поведение при експлоатация.</p>
+            </article>
+            <article class="why-card reveal" data-delay="80">
+                <span class="why-num">02</span>
+                <div class="why-line"></div>
+                <h3 data-bg="Контрол на всяка партида" data-en="Control of every batch">Контрол на всяка партида</h3>
+                <p data-bg="Всяка производствена серия преминава през технически и качествен контрол преди доставка." data-en="Every production batch passes through technical and quality control before delivery.">Всяка производствена серия преминава през технически и качествен контрол преди доставка.</p>
+            </article>
+            <article class="why-card reveal" data-delay="160">
+                <span class="why-num">03</span>
+                <div class="why-line"></div>
+                <h3 data-bg="Лабораторна експертиза" data-en="Laboratory expertise">Лабораторна експертиза</h3>
+                <p data-bg="Част сме от структура с лаборатории и инженерна експертиза в сферата на транспортната инфраструктура." data-en="We are part of a structure with laboratories and engineering expertise in transport infrastructure.">Част сме от структура с лаборатории и инженерна експертиза в сферата на транспортната инфраструктура.</p>
+            </article>
+            <article class="why-card reveal" data-delay="240">
+                <span class="why-num">04</span>
+                <div class="why-line"></div>
+                <h3 data-bg="Разработени за натоварени участъци" data-en="Developed for high-load sections">Разработени за натоварени участъци</h3>
+                <p data-bg="Системите ни се използват при магистрали, летища, градски пътища и инфраструктурни обекти с високи изисквания." data-en="Our systems are used on highways, airports, urban roads, and infrastructure sites with high requirements.">Системите ни се използват при магистрали, летища, градски пътища и инфраструктурни обекти с високи изисквания.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CTA BANNER ===== -->
+<section class="cta-banner">
+    <div class="container">
+        <h2 data-bg="Имате проект за маркировка?" data-en="Have a Road Marking Project?">Имате проект за маркировка?</h2>
+        <p data-bg="Свържете се с нас и ще получите оферта в рамките на 24 часа." data-en="Contact us and receive a quote within 24 hours.">Свържете се с нас и ще получите оферта в рамките на 24 часа.</p>
+        <div class="cta-btns">
+            <a href="kontakti.html" class="btn-primary" data-bg="Запитай за оферта →" data-en="Request a Quote →">Запитай за оферта →</a>
+            <a href="galeria.html" class="btn-outline" data-bg="Виж реализирани обекти" data-en="View Completed Projects">Виж реализирани обекти</a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="assets/logo.png?v=5" alt="Химколор" class="footer-logo">
+            <p class="footer-slogan" data-bg="Инвестиция в сигурност." data-en="Investment in Safety.">Инвестиция в сигурност.</p>
+            <p class="footer-tagline" data-bg="Химия на доверието във всеки слой." data-en="Chemistry of trust in every layer.">Химия на доверието във всеки слой.</p>
+        </div>
+        <div class="footer-nav">
+            <h5 data-bg="Навигация" data-en="Navigation">Навигация</h5>
+            <ul>
+                <li><a href="index.html" data-bg="Начало" data-en="Home">Начало</a></li>
+                <li><a href="doverie.html" data-bg="Доверие" data-en="Trust">Доверие</a></li>
+                <li><a href="ekspertiza.html" data-bg="Експертиза" data-en="Expertise">Експертиза</a></li>
+                <li><a href="sertifikati.html" data-bg="Сертификати" data-en="Certificates">Сертификати</a></li>
+                <li><a href="galeria.html" data-bg="Галерия" data-en="Gallery">Галерия</a></li>
+                <li><a href="kontakti.html" data-bg="Контакти" data-en="Contact">Контакти</a></li>
+            </ul>
+        </div>
+        <div class="footer-nav">
+            <h5 data-bg="Продукти" data-en="Products">Продукти</h5>
+            <ul>
+                <li><a href="prodykti.html" data-bg="Всички продукти" data-en="All Products">Всички продукти</a></li>
+                <li><a href="acrylna-boya.html" data-bg="Акрилатна боя" data-en="Acrylic Paint">Акрилатна боя</a></li>
+                <li><a href="studen-plastik.html" data-bg="Студен пластик 99:1" data-en="Cold Plastic 99:1">Студен пластик 99:1</a></li>
+                <li><a href="shpric-plastik.html" data-bg="Шприц пластик 98:2" data-en="Spray Plastic 98:2">Шприц пластик 98:2</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact-info">
+            <h5 data-bg="Контакти" data-en="Contact">Контакти</h5>
+            <p><span class="footer-contact-label" data-bg="Търговски отдел" data-en="Sales">Търговски отдел</span><a href="tel:+359892337322">+359 892 337 322</a></p>
+            <p><span class="footer-contact-label" data-bg="Технически отдел" data-en="Technical">Технически отдел</span><a href="tel:+359888806928">+359 888 806 928</a></p>
+            <p><a href="mailto:office@himcolor.bg">office@himcolor.bg</a></p>
+            <p data-bg="гр. Първомай, ул. Бузлуджа 3" data-en="Parvomay, 3 Buzludzha St.">гр. Първомай, ул. Бузлуджа 3</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2025 Химколор. <span data-bg="Всички права запазени." data-en="All rights reserved.">Всички права запазени.</span></p>
+        <button class="lang-toggle-footer" id="langToggleFooter">BG / EN</button>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
